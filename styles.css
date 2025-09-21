@@ -1377,3 +1377,62 @@ body {
 #pdf-download p.section-intro {
     color: #1d1d1d;
 }
+/* Announcement inside hero */
+.announcement {
+    margin-top: 40px;
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    display: inline-block;
+}
+.announcement h2 {
+    font-size: 32px;
+    margin-bottom: 12px;
+    color: #007aff;
+}
+.announcement p {
+    font-size: 18px;
+    margin-bottom: 6px;
+    color: #1d1d1f;
+}
+#brands {
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.763), rgba(255, 255, 255, 0.438)),
+        url("3K9A2366 (1).jpg");
+    background-size: cover;
+    background-position: center;
+}
+.announcement {
+    margin-top: 40px;
+    margin-bottom: 40px; /* вот этот отступ вниз */
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    display: inline-block;
+}
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 40px;
+    margin-top: 60px;
+}
+.product-category {
+    position: relative;
+}
+
+.product-category .badge {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: linear-gradient(135deg, #ff3b30, #c81e1e); /* ярко-красный градиент */
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 6px 14px;
+    border-radius: 14px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
