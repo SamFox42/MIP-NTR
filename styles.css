@@ -1436,3 +1436,26 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
+  .btn.btn-download {
+    display: inline-block;
+    padding: 6px 14px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #2e7d32; /* зелёная тема */
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    margin: 4px 6px 0 0;
+  }
+
+  .btn.btn-download:hover {
+    background-color: #43a047;
+    transform: translateY(-1px);
+  }
+
+  .btn.btn-download:active {
+    background-color: #1b5e20;
+    transform: translateY(0);
+  }
